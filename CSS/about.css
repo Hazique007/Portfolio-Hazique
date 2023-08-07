@@ -1,0 +1,269 @@
+* {
+
+    margin: 0;
+    padding: 0;
+}
+
+body {
+
+    background-color: rgb(0, 0, 33);
+    color: white;
+    font-family: poppins, sans-serif;
+
+
+
+}
+
+nav {
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(18, 18, 62);
+
+}
+
+nav ul {
+
+    display: flex;
+    justify-content: center;
+
+}
+
+nav ul li {
+
+    list-style: none;
+    margin: 0 23px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-family: poppins, sans-serif;
+    font-weight: lighter;
+
+    color: white;
+}
+
+nav ul li a:hover {
+    color: rgb(170, 107, 228);
+    font-size: 1.02rem;
+
+}
+
+.left {
+    font-size: 1.5rem;
+}
+
+p {
+
+    font-size: x-large;
+    font-weight: bolder;
+    font-style: normal;
+    font-family: poppins, sans-serif;
+}
+
+.detel {
+
+    margin-left: 8%;
+    margin-top: 8%;
+
+}
+
+.detel h1 {
+    font-size: 50px;
+    color: white;
+    margin-bottom: 20px;
+    font-weight: lighter;
+
+
+
+
+}
+
+span {
+
+    color: rgb(170, 107, 228);
+
+}
+
+.detel p {
+
+    color: grey;
+    line-height: 22px;
+    font-weight: lighter;
+
+
+
+
+}
+
+.detel a {
+
+    background: #0868e9;
+    padding: 10px 18px;
+    text-decoration: none;
+    font-weight: normal;
+    color: #fff;
+    display: inline-block;
+    margin: 30px 0;
+    border: 2px solid white;
+    border-radius: 5px;
+
+}
+
+.detel a {
+
+    background: #0868e9;
+    padding: 09px 19px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+    display: inline-block;
+    margin: 40px 08px;
+    border: 2px solid white;
+    border-radius: 5px;
+
+}
+
+.detel a :hover {
+
+    background: #252525;
+    color: #252525;
+}
+
+.images {
+    width: 45%;
+    height: 80%;
+    position: absolute;
+    bottom: 0;
+    right: 100px;
+
+
+
+}
+
+.images img {
+
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    transition: bottom 1s, left 1s;
+
+}
+
+.iamges:hover .shape {
+    bottom: 40px;
+}
+
+.images:hover .Profile {
+
+    left: 45%;
+
+}
+
+.images .Profile {
+
+    height: 550px;
+    position: relative;
+
+}
+
+* {
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+footer {
+
+    background-color: #0e0e1a;
+    height: 240px;
+
+
+}
+
+.footerContainer {
+    width: 100%;
+    padding: 70px 30px 20px;
+}
+
+.socialIcons {
+    display: flex;
+    justify-content: center;
+}
+
+.socialIcons a {
+    text-decoration: none;
+    padding: 10px;
+    background-color: white;
+    margin: 30px;
+    border-radius: 100%;
+
+}
+
+.socialIcons a i {
+
+    font-size: 2em;
+    color: black;
+    opacity: 0.9;
+
+}
+
+.socialIcons a:hover {
+    background-color: #0e0e1a;
+    transition: 0.5s;
+}
+
+.socialIcons a:hover i {
+    color: white;
+    transition: 0.5s;
+
+}
+
+.footerfoot {
+    background-color: rgb(8, 42, 151);
+    padding: 10px;
+    margin-left: 0px;
+    margin-right: 0px;
+
+    text-align: center;
+}
+
+.footerfoot p {
+
+    color: white;
+}
+
+.designer {
+
+    opacity: 0.7;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin: 0px 5px;
+}
+
+.images .shape {
+
+    margin: 20px -20px;
+}
+
+.images .Profile {
+
+
+    margin: 20px 0;
+}
+
+.conta {
+
+    border: 2px solid white;
+    border-radius: 6%;
+    background-color: rgb(0, 0, 33);
+
+
+
+}
